@@ -99,6 +99,15 @@ a:focus {
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
 }
 
+.img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.name_brand {
+  /* padding-left: 10px; */
+}
+
 .header_section .header_top {
   padding: 15px 0;
   background-color: #252525;
@@ -524,6 +533,10 @@ a:focus {
   width: 23px;
   height: 23px;
   background-color: #f07b26;
+}
+
+.service_header{
+  color: rgb(5, 14, 112);
 }
 
 .service_section {
@@ -1180,6 +1193,14 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.column {  
+  flex: 50%;
+  padding: 10px;
+  width: auto;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
 }
 
 .info_section .info_bottom .info_logo {
