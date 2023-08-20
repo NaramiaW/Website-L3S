@@ -548,8 +548,9 @@ a:focus {
 }
 
 .service_header{
-  color: rgb(5, 14, 112);
+  color: rgb(0, 42, 109);
 }
+
 
 .service_section {
   position: relative;
@@ -597,7 +598,7 @@ a:focus {
 }
 
 .service_section .box .detail-box a:hover {
-  color: #f07b26;
+  color: #15e297;
 }
 
 .service_section .box:hover .img-box img {
@@ -653,7 +654,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f07b26;
+  background-color: #15e297;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
@@ -663,7 +664,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #bc570d;
+  background-color: #15e297;
 }
 
 .project_section .heading_container {
@@ -946,7 +947,7 @@ a:focus {
 }
 
 .why_us_section .why_us_container .box:hover .img-box {
-  background-color: #252525;
+  background-color: #bf0f0f;
 }
 
 .why_us_section .btn-box {
