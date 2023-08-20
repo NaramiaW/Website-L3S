@@ -38,7 +38,7 @@
 
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" id="indexSection">
       <div class="header_top">
         <div class="container-fluid header_top_container">
           <div class="contact_nav">
@@ -72,16 +72,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">Services</a>
+                  <a class="nav-link" href="#serviceSection">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About</a>
+                  <a class="nav-link" href="#aboutSection"> About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
+                  <a class="nav-link" href="#contactSection">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -91,7 +91,7 @@
     </header>
     <!-- end header section -->
     <!-- slider section -->
-    <section class="slider_section ">
+    <section class="slider_section " id="sliderSection">
       <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -105,10 +105,10 @@
                       BUKU
                     </h1>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="#contactSection" class="btn1">
                         Contact Us
                       </a>
-                      <a href="" class="btn2">
+                      <a href="#aboutSection" class="btn2">
                         About Us
                       </a>
                     </div>
@@ -129,7 +129,7 @@
 
   <!-- service section -->
 
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" id="serviceSection">
     <div class="service_container">
       <div class="container ">
         <div class="heading_container">
@@ -186,7 +186,7 @@
 
   <!-- about section -->
 
-  <section class="about_section">
+  <section class="about_section" id="aboutSection">
     <div class="container  ">
       <div class="row">
         <div class="col-md-6">
@@ -218,7 +218,7 @@
 
   <!-- why us section -->
 
-  <section class="why_us_section layout_padding">
+  <section class="why_us_section layout_padding" id="whyUsSection">
     <div class="container">
       <div class="heading_container">
         <h2>
@@ -281,54 +281,23 @@
   <!-- end why us section -->
 
   <!-- contact section -->
-  <section class="contact_section layout_padding-bottom">
-    <div class="container-fluid">
-      <div class="col-lg-4 col-md-5 offset-md-1">
-        <div class="heading_container">
-          <h2>
-            Contact Us
-          </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-5 offset-md-1">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Message" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  SEND
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-7 col-md-6 px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <section class="contact_section layout_padding-bottom" id="contactSection">
+    
   </section>
   <!-- end contact section -->
 
   <!-- info section -->
-  <section class="info_section ">
-
+  <section class="info_section " id="infoSection">
+    <div class="container-fluid">
+      <div class="col-lg-4 col-md-5 offset-md-1">
+        <div class="heading_container">
+          <h2 class="color-blue">
+            Contact Us
+          </h2>
+        </div>
+      </div>
+      
+    </div>
     <div class="container">
       <div class="contact_nav">
         <a href="https://wa.me/message/RYWU6BPM3K5RA1">
@@ -353,10 +322,10 @@
                 QUICK LINKS
               </h4>
               <div class="info_links_menu">
-                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="" href="service.html">Services</a>
-                <a class="" href="about.html"> About</a>
-                <a class="" href="contact.html">Contact Us</a>
+                <a class="" href="#indexSection">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="#serviceSection">Services</a>
+                <a class="" href="#aboutSection"> About</a>
+                <a class="" href="#contactSection">Contact Us</a>
               </div>
             </div>
           </div>
@@ -390,17 +359,7 @@
           
         </div>
       </div>
-      <div class="info_bottom">
-        <div class="row">
-          <div class="col-md-2">
-            <div class="info_logo">
-              <a href="">
-                <img src="images/logo2.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-
+      
       </div>
     </div>
   </section>
@@ -411,8 +370,7 @@
   <footer class="footer_section">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> ini namanya footer
-        <a href="">link kemana hayoo</a>
+        &copy; <span id="displayYear"></span> CV. Laksana Tiga Saudara
       </p>
     </div>
   </footer>
