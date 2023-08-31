@@ -106,6 +106,7 @@ a:focus {
 
 .name_brand {
   /* padding-left: 10px; */
+  font-weight: bold;
 }
 
 .color-red{
@@ -429,7 +430,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/book-background.jpg);
   background-size: cover;
 }
 
